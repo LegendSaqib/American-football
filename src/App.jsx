@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import AboutTheClub from './Pages/AboutTheClub.jsx';
 import Footer from './Components/Footer.jsx';
+import Contact from './Components/Contact.jsx'
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/AboutTheClub" element={<AboutTheClub />} />
-       
+       <Route path="/contact" element={<Contact />} />
       </Routes>
       <Footer />
     </Router>
