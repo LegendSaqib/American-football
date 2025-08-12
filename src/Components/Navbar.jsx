@@ -59,6 +59,7 @@ const Navbar = () => {
         {/* Right Links */}
         <Link to="/" className="text-lg font-bold text-white hover:text-yellow-500">Tickets</Link>
         <Link to="/news" className="text-white font-bold hover:text-gray-300">News</Link>
+        <Link to="/TheTeam" className="text-white font-bold hover:text-gray-300">The Team</Link>
         <Link to="/contact" className="text-white font-bold hover:text-gray-300">Contact</Link>
       </nav>
 

@@ -6,6 +6,7 @@ import AboutTheClub from './Pages/AboutTheClub.jsx';
 import Footer from './Components/Footer.jsx';
 import Contact from './Components/Contact.jsx'
 import News from './Components/News.jsx'
+import TheTeam from './Components/TheTeam.jsx'
 
 function App() {
   return (
@@ -16,6 +17,8 @@ function App() {
         <Route path="/AboutTheClub" element={<AboutTheClub />} />
        <Route path="/contact" element={<Contact />} />
        <Route path="/news" element={<News />} />
+       <Route path="/news" element={<News />} />
+       <Route path="/TheTeam" element={<TheTeam />} />
       </Routes>
       <Footer />
     </Router>
